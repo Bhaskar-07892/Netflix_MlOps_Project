@@ -1,0 +1,15 @@
+project:
+  name: "Netflix Data Analyzer"
+  version: "v1"
+
+data:
+  input_file: "data/netflix_titles.csv"
+  min_year: 2000
+
+output:
+  metrics_file: "metrics.json"
+  log_file: "run.log"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(levelname)s - %(message)s"
